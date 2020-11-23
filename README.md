@@ -12,6 +12,8 @@ You will need to find the databases folders, in case of MAMP they are located in
 
 Download this package on your machine.
 
+Run npm install
+
 You will find folders containing the database name, inside them you will find .frm and .ibd files. Take a copy of the entire folder for backup in the data folder of this package.
 
 Go back to the Applications/MAMP/db/mysql56 and delete 3 files, ib_logfile0, ib_logfile1 and ibdata1. This will get your MAMP's MySQL server back to work.
